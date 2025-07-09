@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Prediction Results</title>
+    <style>
+        table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Stock Prediction Results</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Entry</th>
+            <th>Exit/Stop Loss</th>
+            <th>Quantity</th>
+            <th>Target</th>
+            <th>Total Amount</th>
+            <th>Risks</th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td>{{entry_1}}</td>
+                <td>{{exit_1}}</td>
+                <td>{{quant}}</td>
+                <td>{{target}}</td>
+                <td>{{total_amount}}</td>
+                <td>{{risk}}</td>  
+                </td>
+            </tr>
+    </tbody>
+</table>
+
+
+
+</body>
+</html>
+
