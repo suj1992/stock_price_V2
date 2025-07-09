@@ -9,10 +9,10 @@ from screen_shot import screen_shot
 
 app = Flask(__name__)
 
-"""with open ('config.json', 'r') as c:
-    params = json.load(c)["params"]
-    print(params)
-app.secret_key = 'super-secret-key'"""
+# """with open ('config.json', 'r') as c:
+#     params = json.load(c)["params"]
+#     print(params)
+# app.secret_key = 'super-secret-key'"""
 
 
 @app.route("/")
